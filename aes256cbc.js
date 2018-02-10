@@ -4,7 +4,7 @@
   var crypto = require('crypto')
   var algorithm = 'aes-256-cbc'
   var key = 'put-your-key-in-here'
-  var _iv = 'put-your-initialization-vector'
+  var _iv = 'put-your-valid-initialization-vector' // LENGTH 16
 
   function encrypt (plaintext) {
     var sha256sum = crypto.createHash('sha256')

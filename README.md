@@ -26,3 +26,17 @@ console.log(p)
 71f99aee73bbaf9f3e9a7ecf5eacdc6f
 Hello World!
 ```
+
+# Standalone
+
+Encrypting
+```
+node encrypt.js 'example text'
+016ee8836abdd098d0b9ef20b35a39d1
+```
+
+Decrypting
+```
+node decrypt.js '016ee8836abdd098d0b9ef20b35a39d1'
+example text
+```
