@@ -1,6 +1,6 @@
-var aes256cbc = require('./aes256cbc.js')
+import aes256cbc from "./aes256cbc.js";
 
-var param = process.argv[2];
+const param = process.argv[2];
 
-var p = aes256cbc.decrypt(param);
+const p = aes256cbc.decrypt(param);
 console.log(p);
